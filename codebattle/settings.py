@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'codebattle.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-from secrets_1 import PGDATABASE, PGHOST,PGPASSWORD,PGPORT,PGUSER
+from secrets import PGDATABASE, PGHOST,PGPASSWORD,PGPORT,PGUSER
 
 DATABASES = {
     'default': {
